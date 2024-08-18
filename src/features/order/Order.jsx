@@ -12,7 +12,7 @@ import OrderItem from "./OrderItem.jsx";
 function Order() {
   const order = useLoaderData();
 
-  // Everyone can search for all orders, so for privacy reasons we're gonna gonna exclude names or address, these are only for the restaurant staff
+  // Everyone can search for all orders, so for privacy reasons we're gonna exclude names or address, these are only for the restaurant staff
   const {
     id,
     status,
@@ -25,7 +25,7 @@ function Order() {
   const deliveryIn = calcMinutesLeft(estimatedDelivery);
 
   return (
-    <div className={"space-y-8 px-4 py-6"}>
+    <div className={"space-y-7 px-4 py-4"}>
       <div className={"flex flex-wrap items-center justify-between gap-2"}>
         <h2 className={"text-xl font-semibold"}>Order #{id} status: </h2>
 
@@ -36,7 +36,7 @@ function Order() {
                 "rounded-full bg-red-500 px-3 py-1 text-sm font-semibold uppercase tracking-wide text-red-50"
               }
             >
-              Priority :
+              Priority
             </span>
           )}
           <span
@@ -66,7 +66,7 @@ function Order() {
 
       <ul className={"divide-y divide-stone-200 border-b border-t"}>
         {cart.map((item) => (
-          <OrderItem item={item} key={item.id} />
+          <OrderItem item={item} key={item.pizzaId} />
         ))}
       </ul>
 
