@@ -81,11 +81,13 @@ function CreateOrder() {
               type="text"
               name="address"
               required
+              disabled={isLoadingAddress}
               className={"text-input w-full"}
             />
           </div>
           <span className={"absolute right-[3px] z-50"}>
             <Button
+              disabled={isLoadingAddress}
               type={"small"}
               onClick={(e) => {
                 e.preventDefault();
