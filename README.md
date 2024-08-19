@@ -1,6 +1,6 @@
 <h1></h1>
 
-A website that people can order pizzas in it. We get our pizza menu from an API.
+A website that people can order pizzas from it and can track their orders. We get our pizza menu from an API.
 
 Technologies used in this project:
 - Vite
