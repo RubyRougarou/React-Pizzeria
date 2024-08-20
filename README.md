@@ -1,4 +1,5 @@
-<h1></h1>
+<h1 align="center">A React Based Pizzeria Site</h1>
+
 
 A website that people can order pizzas from it and can track their orders. We get our pizza menu from an API.
 
