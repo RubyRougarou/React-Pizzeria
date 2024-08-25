@@ -16,7 +16,7 @@ Technologies used in this project:
 
 ---
 
-You can visit the website by clicking [here](https://tiny-figolla-88e045.netlify.app/)
+You can visit the website by clicking [here](https://react-pizzeria-nu.vercel.app/)
 
 ---
 
